@@ -18,27 +18,11 @@ Header {
   }
   
   Header h1:hover {
-    color: #61dafb;
     cursor: pointer;
     transform: scale(1.02);
     transition: transform 0.9s ease 0s;
   }
   
-  Header h1:active {
-    color: #61dafb;
-  }
-  
-  Header h1:focus {
-    color: #61dafb;
-  }
-  
-  Header h1:visited {
-    color: #61dafb;
-  }
-  
-  Header h1:link {
-    color: #61dafb;
-  }
   
 img {
     display: inline-block;

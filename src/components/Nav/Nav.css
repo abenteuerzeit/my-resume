@@ -1,32 +1,38 @@
-
 nav {
     background-color: #222;
-    margin: 0 auto;
-    padding: 0;
 }
 
-nav > ul {
-    list-style: none;
+ul {
+    list-style: none inside none;
+    margin: 1.618vh;
+    padding: 0;
     border: 0.25vh solid rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
     box-sizing: border-box;
     box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.5);
     display: flex;
-    margin: 1.618vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
 }
 
-nav > ul > li {
+li {
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.618vh;
 }
 
 
-nav ul li:hover {
+li:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-nav ul li a {
+a {
     text-decoration: none;
     color: white;
-    padding: 1.618vh;
 }
+
