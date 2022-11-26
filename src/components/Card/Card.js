@@ -1,6 +1,6 @@
 import './Card.css';
-import Education from '../Education/Education';
-import CV_DATA from '../../app/data';
+// import Education from '../Education/Education';
+// import CV_DATA from '../../app/data';
 
 const CareerCard = (props) => {
 

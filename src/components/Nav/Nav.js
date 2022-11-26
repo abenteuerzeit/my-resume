@@ -1,21 +1,28 @@
 import './Nav.css';
+import { Link } from 'react-router-dom';
 
 const Nav = (props) => {
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="/guitar-teacher">Guitar Teacher</a>
+                    <Link to="/">Main</Link>
                 </li>
                 <li>
-                    <a href="/english-teacher">English Teacher</a>
+                    <Link to="/English">English Teacher</Link>
                 </li>
-                <li><a href="/editor">Philosopher</a></li>
-                <li><a href="/guitar-teacher">Musician</a></li>
-                <li><a href="/guitar-teacher">IT & Web Development</a></li>
+                <li>
+                    <Link to="/Philosopher">Philosopher</Link>
+                </li>
+                <li>
+                    <Link to="/Musician">Musician</Link>
+                </li>
+                <li>
+                    <Link to="/FullStackDev">Developer</Link>
+                </li>
             </ul>
         </nav>
     );
-    }
+}
 
 export default Nav;

@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 0px 0px 0px;
+    transition: transform 0.3s ease 0s;
+    background-color: #222;
+    color: white;
+    height: 100vh;
+  }
+  
+  main h1 {
+    font-size: 4vh;
+    text-shadow: antiquewhite 0.01rem 0 0.05rem inset;
+  }
+  
+
