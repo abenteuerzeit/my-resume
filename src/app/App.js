@@ -1,7 +1,5 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Nav from './components/Nav/Nav';
-import CareerCard from './components/CareerCard/CareerCard';
+import Header from '../components/Header/Header';
 
 // This application presents my resume as a single page application.
 // The user can display a resume that displays data based on the selected career choice.
@@ -25,8 +23,6 @@ function App() {
   return (
     <>
       <Header />
-      <Nav />
-      <CareerCard  />
     </>
   );
 }

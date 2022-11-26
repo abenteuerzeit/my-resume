@@ -9,7 +9,7 @@ Header {
     transition: transform 0.3s ease 0s;
     background-color: #222;
     color: white;
-  
+    height: 100vh;
   }
   
   Header h1 {
@@ -49,6 +49,9 @@ img {
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
+    border: 0.25vh solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease 0s;
 }
 
 figure {
@@ -61,7 +64,7 @@ figure {
 }
 
 figcaption {
-    font-size: small;
+    font-size: 4vh;
     font-weight: bold;
     text-align: center;
     padding: 0.75rem;
@@ -70,8 +73,6 @@ figcaption {
 
 img:hover {
     transition: transform 0.1s ease-in-out 0.1s;
-    transform: scale(1.75);
+    transform: scale(1.15);
 }
-
-    /* recenter image at cursor location */
 

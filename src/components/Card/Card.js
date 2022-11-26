@@ -1,6 +1,6 @@
-import './CareerCard.css';
+import './Card.css';
 import Education from '../Education/Education';
-import CV_DATA from '../../data/data';
+import CV_DATA from '../../app/data';
 
 const CareerCard = (props) => {
 
@@ -22,14 +22,13 @@ const CareerCard = (props) => {
         <div className="CareerCard">
 
             <article className="career-card">
-            {/* <Education data={CV_DATA.Universities} /> */}
             <h3>Work Experience</h3>
             <h3>Skills</h3>
             </article>
 
             <div>
                 <h3>University</h3>
-                <p>University of Warsaw</p>
+                <p> Lorem ipsum </p>
             </div>
         
         </div>
