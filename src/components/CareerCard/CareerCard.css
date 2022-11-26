@@ -1,0 +1,49 @@
+.CareerCard {
+    display: grid;
+    
+    /* Implement golden ratio */
+    grid-template-columns: 1fr 1.618fr;
+    grid-template-rows: 1fr 1.618fr;
+    grid-template-areas: 
+        "img h1"
+        "img p";
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    text-shadow: #222 0.01rem 0 0.05rem inset;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-align: left;;
+    text-shadow: #222 0.01rem 0 0.05rem inset;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-shadow: #222 0.01rem 0 0.05rem inset;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+button:active {
+    background-color: #61dafb;
+}
