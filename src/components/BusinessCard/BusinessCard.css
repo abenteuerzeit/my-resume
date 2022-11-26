@@ -51,3 +51,47 @@ button:active {
     transform: translate3d(0, 0.25vh, 0);
     transition: transform 0s ease-in-out 0.1s;
 }
+
+dl {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    grid-gap: 1.5vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+address {
+    font-style: normal;
+    text-align: left;
+    padding: 0.75rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+address ul {
+    list-style: none;
+    padding: 1vh;
+    margin: 1vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+address li {
+    padding: 0.75rem;
+}
+
