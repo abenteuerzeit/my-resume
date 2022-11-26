@@ -5,6 +5,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import BusinessCard from '../components/BusinessCard/BusinessCard';
 import Portrait from '../components/Portrait/Portrait';
 import Nav from '../components/Nav/Nav';
+import English from '../components/English/English';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Portrait />} />
         <Route path="/Bio" element={<BusinessCard />} />
+        <Route path="/EnglishTeacher" element={<English />} />
       </Routes>
       <Nav />
     </main>

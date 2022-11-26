@@ -1,7 +1,15 @@
+:root {
+  --ruby: rgba(200, 75, 90, 0.45);
+  --primary-color: #c84b5a;
+  --secondary-color: #c84b9a;
+  --tertiary-color: #c8794b;
+  --quaternary-color: #c8c84b;
+
+}
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
   }
-  

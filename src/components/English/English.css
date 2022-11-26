@@ -1,0 +1,47 @@
+
+
+
+.container {
+    background-color: #f5f5f5;
+    border-radius: 5vw;
+    color: #000;
+    padding: 0.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+}
+
+p {
+    background-color: rgba(200, 75, 90, 0.45);
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.cv-section {
+    background-color: #f5f5f5;
+    border-radius: 0;
+    margin: auto;
+    padding: 0.5em;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    
+    /* Cool animated border */
+    border: 0.25vh solid #000;
+    border-radius: 0.25vh;
+    border-image: linear-gradient(to right, #000, #f5f5f5, #000) 1;
+}
+
