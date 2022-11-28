@@ -2,9 +2,11 @@ article {
     border: 0.25vh solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease 0s;
-    min-height: 200px;
-    min-width: 350px;
+    /* min-height: 200px;
+    min-width: 350px; */
     aspect-ratio: 1.75;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -45,18 +47,46 @@ button:active {
 }
 
 dl {
-    display: grid;
-    grid: auto-flow / 1fr 1fr;
-    grid-gap: 1.5vh;
-    padding: 0;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    border: .1568vh solid var(--ruby);
     margin: 0;
+    padding: 1vw; */
+    display: grid;
+    grid: 1fr / 1fr 1fr 1fr;
+    margin: 1vh;
+    padding: 1.618vh;
+}
+
+dt {
+    text-align: right;
+    font-size: small;
+    align-content: stretch;
+    margin: 0.50vh;
+    padding: 0.5vh;
+    /* flex-grow: 1; */
+    grid-column: span 1;
     
+}
+
+dd {
+    text-align: left;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    /* flex-grow: 11; */
+    grid-column: span 2;
+    font-size: medium;
 }
 
 address {
     font-style: normal;
     text-align: left;
-    padding: 0.75rem;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -91,5 +121,16 @@ address li {
     width: 2.5vh;
     height: 2.5vh;
     padding: 0;
+    padding-right: 0.75em;
     margin: 0;
+    border: none;
+    box-shadow: none;
+    filter: invert(100%);
+    float: left;
+    border-radius: 0;
+}
+.icon:hover {
+    transform: none;
+    border: none;
+    box-shadow: none;
 }

@@ -1,5 +1,5 @@
 
-
+/* 
 
 .container {
     background-color: #f5f5f5;
@@ -24,9 +24,9 @@ p {
     height: 10vh;
     display: flex;
     align-items: center;
-}
+} */
 
-.cv-section {
+/* .cv-section {
     background-color: #f5f5f5;
     border-radius: 0;
     margin: auto;
@@ -39,9 +39,8 @@ p {
     align-items: stretch;
     align-content: stretch;
     
-    /* Cool animated border */
     border: 0.25vh solid #000;
     border-radius: 0.25vh;
     border-image: linear-gradient(to right, #000, #f5f5f5, #000) 1;
-}
+} */
 
